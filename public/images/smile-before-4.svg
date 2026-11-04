@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" fill="none">
+    <rect width="320" height="260" fill="#F2C8B0"/>
+    <!-- Cheek shading -->
+    <radialGradient id="cb4" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#F6D2BD"/>
+      <stop offset="100%" stop-color="#DFA88B"/>
+    </radialGradient>
+    <rect width="320" height="260" fill="url(#cb4)"/>
+    <!-- Mouth cavity -->
+    <path d="M36 122C90 100 230 100 284 122C264 190 215 212 160 212C105 212 56 190 36 122Z" fill="#7C2828"/>
+    <!-- Before teeth -->
+    <g fill="#F4E6C3" stroke="#D6C39B" stroke-width="2">
+      <rect x="64" y="114" width="28" height="44" rx="8" transform="rotate(3 64 114)"/>
+      <rect x="93" y="112" width="32" height="50" rx="8" transform="rotate(-2 93 112)"/>
+      <rect x="126" y="110" width="34" height="54" rx="9" transform="rotate(2 126 110)"/>
+      <rect x="162" y="111" width="34" height="53" rx="9" transform="rotate(-3 162 111)"/>
+      <rect x="197" y="112" width="32" height="49" rx="8" transform="rotate(2 197 112)"/>
+      <rect x="230" y="114" width="28" height="44" rx="8" transform="rotate(-2 230 114)"/>
+    </g>
+    <!-- Lips -->
+    <path d="M30 122C82 92 132 108 160 108C188 108 238 92 290 122" stroke="#D16B6B" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M34 124C66 196 112 216 160 216C208 216 254 196 286 124" stroke="#C85E5E" stroke-width="20" stroke-linecap="round" fill="none"/>
+  </svg>

@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-editorial: 'Cormorant Garamond', Georgia, serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html {
+    font-family: var(--font-body);
+    color: #0B0B0C;
+    background-color: #FFFFFF;
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, .font-outfit {
+    font-family: var(--font-heading);
+  }
+
+  .font-editorial {
+    font-family: var(--font-editorial);
+    font-style: italic;
+  }
+
+  .font-mono-dial {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom Animations */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-33.3333%, 0, 0);
+  }
+}
+
+@keyframes whatsappPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.55);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+@keyframes floatCardA {
+  0%, 100% {
+    transform: translateY(-5px) rotate(-4deg);
+  }
+  50% {
+    transform: translateY(5px) rotate(-3deg);
+  }
+}
+
+@keyframes floatCardB {
+  0%, 100% {
+    transform: translateY(5px) rotate(4deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(5deg);
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(-4px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+@keyframes pinBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+.animate-marquee-scroll {
+  animation: marqueeScroll 32s linear infinite;
+}
+
+.animate-whatsapp-pulse {
+  animation: whatsappPulse 2.4s infinite;
+}
+
+.animate-float-card-left {
+  animation: floatCardA 6s ease-in-out infinite;
+}
+
+.animate-float-card-right {
+  animation: floatCardB 6s ease-in-out infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 5s ease-in-out infinite;
+}
+
+.animate-pin-bounce {
+  animation: pinBounce 2.4s ease-out infinite;
+}
+
+/* Charcoal film grain showcase surface (Sections 5, 9, 11) */
+.charcoal-showcase {
+  background-color: #111215;
+  background-image:
+    radial-gradient(circle at 85% 15%, rgba(30, 155, 240, 0.16) 0%, rgba(255, 255, 255, 0.06) 28%, transparent 60%),
+    radial-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 0);
+  background-size: 100% 100%, 24px 24px;
+}
+
+/* Dotted Map Pattern */
+.dotted-map-bg {
+  background-image: radial-gradient(#CBD5E1 1.75px, transparent 1.75px);
+  background-size: 12px 12px;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hide scrollbar for clean carousels while keeping scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

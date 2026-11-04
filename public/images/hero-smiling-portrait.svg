@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680" fill="none">
+  <defs>
+    <radialGradient id="faceGrad" cx="46%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#FFEAD9"/>
+      <stop offset="55%" stop-color="#F5C9AE"/>
+      <stop offset="100%" stop-color="#DDA484"/>
+    </radialGradient>
+    <linearGradient id="hairGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#4A2E1B"/>
+      <stop offset="50%" stop-color="#2E1B0F"/>
+      <stop offset="100%" stop-color="#1A0E07"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E6EBEE"/>
+    </linearGradient>
+    <linearGradient id="bottomMaskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="white" stop-opacity="1"/>
+      <stop offset="72%" stop-color="white" stop-opacity="1"/>
+      <stop offset="98%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="portraitFade">
+      <rect width="600" height="680" fill="url(#bottomMaskGrad)"/>
+    </mask>
+  </defs>
+  <g mask="url(#portraitFade)">
+    <!-- Back Wavy Hair -->
+    <path d="M155 240C145 115 215 55 300 55C385 55 455 115 445 240C460 330 445 435 410 490H190C155 435 140 330 155 240Z" fill="url(#hairGrad)"/>
+    <!-- Shoulders & Crisp White Top -->
+    <path d="M85 670C105 535 185 490 300 490C415 490 495 535 515 670H85Z" fill="url(#shirtGrad)"/>
+    <!-- Neck -->
+    <path d="M252 405H348V510C348 542 252 542 252 510V405Z" fill="url(#faceGrad)"/>
+    <path d="M252 422C275 444 325 444 348 422V455C322 475 278 475 252 455V422Z" fill="#C98E6E" fill-opacity="0.38"/>
+    <!-- Collar V-neck -->
+    <path d="M225 492L300 565L375 492" stroke="#D5DFE7" stroke-width="3" fill="none"/>
+    <!-- Ears -->
+    <ellipse cx="186" cy="278" rx="18" ry="32" fill="#E6B295"/>
+    <ellipse cx="414" cy="278" rx="18" ry="32" fill="#E6B295"/>
+    <!-- Pearl earrings -->
+    <circle cx="184" cy="308" r="5" fill="#FFFFFF"/>
+    <circle cx="416" cy="308" r="5" fill="#FFFFFF"/>
+    <!-- Face Contour -->
+    <path d="M192 215C192 135 238 100 300 100C362 100 408 135 408 215C408 318 364 432 300 432C236 432 192 318 192 215Z" fill="url(#faceGrad)"/>
+    <!-- Soft Blush -->
+    <ellipse cx="232" cy="296" rx="32" ry="22" fill="#F09487" fill-opacity="0.28"/>
+    <ellipse cx="368" cy="296" rx="32" ry="22" fill="#F09487" fill-opacity="0.28"/>
+    <!-- Eyebrows -->
+    <path d="M222 216C238 206 264 207 276 214" stroke="#331E12" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M324 214C336 207 362 206 378 216" stroke="#331E12" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Warm Smiling Eyes -->
+    <ellipse cx="250" cy="242" rx="17" ry="10.5" fill="#FFFFFF"/>
+    <circle cx="250" cy="242" r="8.5" fill="#422818"/>
+    <circle cx="250" cy="242" r="4" fill="#120A06"/>
+    <circle cx="253" cy="239" r="2.5" fill="#FFFFFF"/>
+    <path d="M229 241C239 229 262 229 271 241" stroke="#22130B" stroke-width="3.5" stroke-linecap="round"/>
+
+    <ellipse cx="350" cy="242" rx="17" ry="10.5" fill="#FFFFFF"/>
+    <circle cx="350" cy="242" r="8.5" fill="#422818"/>
+    <circle cx="350" cy="242" r="4" fill="#120A06"/>
+    <circle cx="353" cy="239" r="2.5" fill="#FFFFFF"/>
+    <path d="M329 241C338 229 361 229 371 241" stroke="#22130B" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M298 242C297 268 290 294 290 303C290 310 295 314 301 314C307 314 313 310 313 304" stroke="#CA8E6E" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Natural Radiant Smile with Pearl White Teeth -->
+    <path d="M244 338C266 346 334 346 356 338C347 378 326 392 300 392C274 392 253 378 244 338Z" fill="#983838"/>
+    <path d="M250 340C270 346 330 346 350 340C346 364 328 373 300 373C272 373 254 364 250 340Z" fill="#FFFFFF"/>
+    <!-- Subtle tooth lines -->
+    <line x1="300" y1="343" x2="300" y2="373" stroke="#E4EEF7" stroke-width="1.2"/>
+    <line x1="285" y1="343" x2="286" y2="371" stroke="#E4EEF7" stroke-width="1.2"/>
+    <line x1="315" y1="343" x2="314" y2="371" stroke="#E4EEF7" stroke-width="1.2"/>
+    <line x1="271" y1="342" x2="273" y2="367" stroke="#E4EEF7" stroke-width="1.2"/>
+    <line x1="329" y1="342" x2="327" y2="367" stroke="#E4EEF7" stroke-width="1.2"/>
+    <!-- Lips -->
+    <path d="M242 338C264 329 286 334 300 334C314 334 336 329 358 338" stroke="#D46E6E" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M244 338C258 380 278 394 300 394C322 394 342 380 356 338" stroke="#DA7878" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+    <!-- Side-swept Hair Framing Face -->
+    <path d="M175 235C175 130 235 78 310 82C375 85 425 135 425 235C405 162 365 128 305 124C242 120 198 162 175 235Z" fill="url(#hairGrad)"/>
+  </g>
+</svg>

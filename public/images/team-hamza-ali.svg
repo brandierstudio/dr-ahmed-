@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" fill="none">
+  <defs>
+    <linearGradient id="bgH" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F7FA"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="440" fill="url(#bgH)"/>
+  <circle cx="200" cy="200" r="150" fill="#FFFFFF" fill-opacity="0.6"/>
+  <!-- Suit / Coat -->
+  <path d="M75 440C90 330 140 298 200 298C260 298 310 330 325 440H75Z" fill="#0F172A"/>
+  <path d="M172 298L200 370L228 298" fill="#FFFFFF"/>
+  <path d="M195 315L200 370L205 315" fill="#1E9BF0"/>
+  <!-- Neck & Face -->
+  <rect x="176" y="250" width="48" height="60" rx="16" fill="#E8B89A"/>
+  <ellipse cx="200" cy="185" rx="60" ry="72" fill="#EFC3A7"/>
+  <!-- Hair & Short Beard -->
+  <path d="M140 165C140 105 168 82 202 82C238 82 262 108 260 165C248 130 228 118 200 118C172 118 152 130 140 165Z" fill="#1E1B18"/>
+  <path d="M145 205C150 242 175 258 200 258C225 258 250 242 255 205C248 228 226 242 200 242C174 242 152 228 145 205Z" fill="#1E1B18" fill-opacity="0.85"/>
+  <!-- Eyes -->
+  <circle cx="177" cy="178" r="6" fill="#1E1B18"/>
+  <circle cx="223" cy="178" r="6" fill="#1E1B18"/>
+  <path d="M165 165C172 160 183 160 189 165" stroke="#1E1B18" stroke-width="4" stroke-linecap="round"/>
+  <path d="M211 165C217 160 228 160 235 165" stroke="#1E1B18" stroke-width="4" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M178 214C188 226 212 226 222 214Z" fill="#FFFFFF"/>
+  <path d="M176 214C188 227 212 227 224 214" stroke="#A64B4B" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+</svg>

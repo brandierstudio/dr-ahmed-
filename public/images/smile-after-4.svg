@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" fill="none">
+    <radialGradient id="ca4" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#F8D7C4"/>
+      <stop offset="100%" stop-color="#E4B297"/>
+    </radialGradient>
+    <rect width="320" height="260" fill="url(#ca4)"/>
+    <!-- Mouth cavity -->
+    <path d="M36 122C90 100 230 100 284 122C264 190 215 212 160 212C105 212 56 190 36 122Z" fill="#882D2D"/>
+    <!-- After teeth: pristine pearl white -->
+    <g fill="#FFFFFF" stroke="#E4EEF7" stroke-width="1.5">
+      <rect x="64" y="112" width="28" height="46" rx="9"/>
+      <rect x="92" y="110" width="33" height="52" rx="9"/>
+      <rect x="125" y="108" width="35" height="56" rx="10"/>
+      <rect x="160" y="108" width="35" height="56" rx="10"/>
+      <rect x="195" y="110" width="33" height="52" rx="9"/>
+      <rect x="228" y="112" width="28" height="46" rx="9"/>
+    </g>
+    <!-- Sparkle highlight -->
+    <path d="M145 122L148 130L156 133L148 136L145 144L142 136L134 133L142 130Z" fill="#6CC4FF"/>
+    <!-- Lips -->
+    <path d="M30 122C82 92 132 108 160 108C188 108 238 92 290 122" stroke="#D96B6B" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M34 124C66 196 112 216 160 216C208 216 254 196 286 124" stroke="#CF5E5E" stroke-width="20" stroke-linecap="round" fill="none"/>
+  </svg>
